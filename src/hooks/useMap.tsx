@@ -1,10 +1,12 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, createRef } from "react";
 import mapboxgl, { Map } from "mapbox-gl";
 // @ts-expect-error Threebox is not defined.
 import { Threebox } from "threebox-plugin";
 
 import { locations } from "../data/locations";
 import { useAppStore } from "../store/useAppStore";
+import { createRoot } from "react-dom/client";
+import { Marker } from "../components/map/Marker";
 
 export const useMap = () => {
   const [coords, _setCoords] = useState<[number, number]>([
@@ -15,6 +17,11 @@ export const useMap = () => {
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
+
+  const rotateCamera = (timestamp: number) => {
+    map.current?.rotateTo((timestamp / 100) % 360, { duration: 0 });
+    requestAnimationFrame(rotateCamera);
+  };
 
   const moveMap = (idx: number) => {
     setLocation(locations[idx]);
@@ -63,7 +70,11 @@ export const useMap = () => {
       zoom: zoom,
       pitch: 50,
       antialias: true,
+      dragPan: false,
+      touchZoomRotate: { around: "center" },
+      scrollZoom: { around: "center" },
     });
+    map.current.dragRotate.disable();
 
     //@ts-expect-error tb is not defined.
     const tb = (window.tb = new Threebox(
@@ -74,22 +85,17 @@ export const useMap = () => {
       },
     ));
 
-    map.current.on("style.load", () => {
-      map.current?.addLayer({
-        id: "custom-threebox-model",
-        type: "custom",
-        renderingMode: "3d",
-        onAdd: () => {
-          locations.forEach(({ camera, model }) => {
-            tb.loadObj(model.options, (obj: any) => {
-              obj.setCoords(camera.center);
-              obj.setRotation({ x: 0, y: 0, z: 241 });
-              tb.add(obj);
-            });
-          });
-        },
-        render: () => tb.update(),
-      });
+    locations.forEach((location) => {
+      const ref = createRef<HTMLDivElement | null>();
+
+      // @ts-expect-error ref is read-only.
+      ref.current = document.createElement("div");
+
+      createRoot(ref.current).render(<Marker location={location} />);
+
+      new mapboxgl.Marker(ref.current)
+        .setLngLat(location.feature.geometry.coordinates as [number, number])
+        .addTo(map.current!);
     });
 
     map.current.on("load", () => moveMap(0));

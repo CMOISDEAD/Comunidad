@@ -1,13 +1,31 @@
+import {
+  Button,
+  Image,
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from "@nextui-org/react";
+
 interface Props {
-  feature: any;
+  location: ILocation;
 }
 
-export const Marker = ({ feature }: Props) => {
-  const handleClick = () => console.log("Marker clicked", feature);
+export const Marker = ({ location }: Props) => {
+  const handleClick = () => alert(`Marker clicked: ${location.sport}`);
 
   return (
-    <button className="bg-emerald-500 rounded px-2 py-1" onClick={handleClick}>
-      {feature.properties.title}
-    </button>
+    <Popover showArrow>
+      <PopoverTrigger>
+        <Image
+          isBlurred
+          src={location.image}
+          alt="an image"
+          className="w-60 cursor-pointer"
+        />
+      </PopoverTrigger>
+      <PopoverContent>
+        <Button onClick={handleClick}>{location.sport}</Button>
+      </PopoverContent>
+    </Popover>
   );
 };

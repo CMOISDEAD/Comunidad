@@ -1,4 +1,5 @@
 import {
+  Image,
   Card,
   CardBody,
   CardHeader,
@@ -40,6 +41,7 @@ export const Details = () => {
               <h4 className="text-xl text-default-500 capitalize">
                 {location.sport}
               </h4>
+              {/* <Image src="https://www.cam.ac.uk/sites/www.cam.ac.uk/files/news/research/news/eyes.jpg" className="w-full object-cover mt-3" /> */}
             </div>
           </CardHeader>
           <CardBody>
