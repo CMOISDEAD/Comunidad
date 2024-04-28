@@ -31,4 +31,3 @@ interface ILocation {
     };
   };
 }
-}
