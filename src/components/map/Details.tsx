@@ -4,6 +4,7 @@ import {
   CardHeader,
   Button,
   Progress,
+  Skeleton,
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { RxArrowRight } from "react-icons/rx";
@@ -12,6 +13,7 @@ interface Props {
   location: {
     title: string;
     description: string;
+    sport: string;
   } | null;
 }
 
@@ -27,12 +29,24 @@ export const Details = ({ location }: Props) => {
   }, [location]);
 
   return (
-    <Card isBlurred className="absolute top-10 left-2 w-52 z-50">
+    <Card isBlurred className="absolute top-12 left-2 w-52 z-50">
       {location ? (
         <>
-          <Progress value={value} size="sm" color="primary" aria-label="loading" />
+          <Progress
+            value={value}
+            size="sm"
+            color="primary"
+            aria-label="loading"
+          />
           <CardHeader>
-            <h2 className="text-3xl font-bold capitalize">{location.title}</h2>
+            <div className="flex flex-col">
+              <h2 className="text-3xl font-bold capitalize">
+                {location.title}
+              </h2>
+              <h4 className="text-xl text-default-500 capitalize">
+                {location.sport}
+              </h4>
+            </div>
           </CardHeader>
           <CardBody>
             <p className="text-sm mb-5">{location.description}</p>
@@ -48,7 +62,9 @@ export const Details = ({ location }: Props) => {
         </>
       ) : (
         <CardBody>
-          <p className="text-sm">No location selected</p>
+          <Skeleton className="rounded-lg">
+            <div className="h-64 rounded-lg bg-default-300"></div>
+          </Skeleton>
         </CardBody>
       )}
     </Card>

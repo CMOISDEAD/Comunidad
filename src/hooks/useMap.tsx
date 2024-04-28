@@ -4,14 +4,14 @@ import mapboxgl, { Map } from "mapbox-gl";
 import { Threebox } from "threebox-plugin";
 
 import { locations } from "../data/locations";
+import { useAppStore } from "../store/useAppStore";
 
 export const useMap = () => {
   const [coords, _setCoords] = useState<[number, number]>([
     -75.6723751, 4.536307,
   ]);
   const [zoom, _setZoom] = useState(13);
-  const [index, setIndex] = useState(0);
-  const [location, setLocation] = useState<any>(null);
+  const { index, setIndex, location, setLocation } = useAppStore();
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
@@ -24,20 +24,19 @@ export const useMap = () => {
 
   const playback = (forward: boolean) => {
     const length = locations.length;
-
-    setIndex((prev) => {
-      const newIndex = forward
-        ? prev === length - 1
-          ? 0
-          : prev + 1
-        : prev === 0
-          ? length - 1
-          : prev - 1;
-
-      moveMap(newIndex);
-      return newIndex;
-    });
+    const newIndex = forward
+      ? index === length - 1
+        ? 0
+        : index + 1
+      : index === 0
+        ? length - 1
+        : index - 1;
+    setIndex(newIndex);
   };
+
+  useEffect(() => {
+    moveMap(index);
+  }, [index]);
 
   useEffect(() => {
     const handleKeydown = (e: KeyboardEvent) => {
