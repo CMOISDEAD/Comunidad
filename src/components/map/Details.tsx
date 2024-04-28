@@ -1,5 +1,5 @@
 import {
-  Image,
+  // Image,
   Card,
   CardBody,
   CardHeader,

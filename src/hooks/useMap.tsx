@@ -25,7 +25,6 @@ export const useMap = () => {
 
   const moveMap = (idx: number) => {
     setLocation(locations[idx]);
-    // @ts-expect-error map is not defined.
     map.current?.flyTo(locations[idx].camera);
   };
 
@@ -75,15 +74,6 @@ export const useMap = () => {
       scrollZoom: { around: "center" },
     });
     map.current.dragRotate.disable();
-
-    //@ts-expect-error tb is not defined.
-    const tb = (window.tb = new Threebox(
-      map.current,
-      map.current.getCanvas().getContext("webgl"),
-      {
-        defaultLights: true,
-      },
-    ));
 
     locations.forEach((location) => {
       const ref = createRef<HTMLDivElement | null>();
