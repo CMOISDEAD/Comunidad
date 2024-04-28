@@ -8,17 +8,11 @@ import {
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { RxArrowRight } from "react-icons/rx";
+import { useAppStore } from "../../store/useAppStore";
 
-interface Props {
-  location: {
-    title: string;
-    description: string;
-    sport: string;
-  } | null;
-}
-
-export const Details = ({ location }: Props) => {
+export const Details = () => {
   const [value, setValue] = useState(0);
+  const { location } = useAppStore();
 
   useEffect(() => {
     setValue(0);

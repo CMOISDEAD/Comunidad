@@ -3,11 +3,11 @@ import { useMap } from "../../hooks/useMap";
 import { Details } from "./Details";
 
 export const MapView = () => {
-  const { container, location } = useMap();
+  const { container } = useMap();
 
   return (
     <div className="h-screen">
-      <Details location={location} />
+      <Details />
       <div ref={container} className="h-full w-full" />
     </div>
   );
