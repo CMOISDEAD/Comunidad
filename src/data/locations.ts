@@ -6,8 +6,17 @@ export const locations = [
       "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
     camera: {
       center: [-75.6723751, 4.536307],
-      zoom: 12,
+      zoom: 14,
       pitch: 50,
+    },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
     },
   },
   {
@@ -18,7 +27,16 @@ export const locations = [
     camera: {
       center: [-75.569799, 4.6373012],
       bearing: -8.9,
-      zoom: 13,
+      zoom: 14.5,
+    },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
     },
   },
   {
@@ -29,7 +47,16 @@ export const locations = [
     camera: {
       center: [-75.6304136, 4.6144777],
       bearing: 25.3,
-      zoom: 13,
+      zoom: 14.5,
+    },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
     },
   },
   {
@@ -42,6 +69,15 @@ export const locations = [
       bearing: 36,
       zoom: 14,
     },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
+    },
   },
   {
     id: "5",
@@ -51,7 +87,16 @@ export const locations = [
     camera: {
       center: [-75.7887314, 4.4512175],
       bearing: 28.4,
-      zoom: 13,
+      zoom: 14.5,
+    },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
     },
   },
   {
@@ -61,9 +106,18 @@ export const locations = [
       "New York City is made up of five boroughs: the Bronx, Brooklyn, Manhattan, Queens and Staten Island. Each one has enough attractions—and enough personality—to be a city all its own.",
     camera: {
       center: [-75.6579957, 4.6750767],
-      zoom: 13,
-      bearing: 0,
-      pitch: 0,
+      zoom: 14.5,
+      bearing: 28.4,
+      pitch: 50,
+    },
+    model: {
+      options: {
+        obj: "https://docs.mapbox.com/mapbox-gl-js/assets/metlife-building.gltf",
+        type: "gltf",
+        scale: { x: 12, y: 12, z: 2.7 },
+        units: "meters",
+        rotation: { x: 90, y: -90, z: 0 },
+      },
     },
   },
 ];

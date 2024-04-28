@@ -1,38 +1,56 @@
-import { useState, useEffect, useRef, createRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import mapboxgl, { Map } from "mapbox-gl";
+// @ts-expect-error Threebox is not defined.
+import { Threebox } from "threebox-plugin";
 
-import { markers } from "../data/markers";
 import { locations } from "../data/locations";
-import { createRoot } from "react-dom/client";
-import { Marker } from "../components/map/Marker";
 
 export const useMap = () => {
   const [coords, _setCoords] = useState<[number, number]>([
     -75.6723751, 4.536307,
   ]);
   const [zoom, _setZoom] = useState(13);
+  const [index, setIndex] = useState(0);
+  const [location, setLocation] = useState<any>(null);
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
 
-  const highlightBorough = (code: any) => {
-    map.current?.setFilter("highlight", ["==", "borocode", code]);
+  const moveMap = (idx: number) => {
+    setLocation(locations[idx]);
+    // @ts-expect-error map is not defined.
+    map.current?.flyTo(locations[idx].camera);
   };
 
-  const playback = (index: number) => {
-    // locations[index].title, locations[index].description;
-    highlightBorough(locations[index].id ? locations[index].id : "");
+  const playback = (forward: boolean) => {
+    const length = locations.length;
 
-    // @ts-expect-error location is not a valid type.
-    map.current?.flyTo(locations[index].camera);
+    setIndex((prev) => {
+      const newIndex = forward
+        ? prev === length - 1
+          ? 0
+          : prev + 1
+        : prev === 0
+          ? length - 1
+          : prev - 1;
 
-    map.current?.once("moveend", () => {
-      window.setTimeout(() => {
-        index = (index + 1) % locations.length;
-        playback(index);
-      }, 3000);
+      moveMap(newIndex);
+      return newIndex;
     });
   };
+
+  useEffect(() => {
+    const handleKeydown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft" || e.key === "a") {
+        playback(false);
+      } else if (e.key === "ArrowRight" || e.key === "d") {
+        playback(true);
+      }
+    };
+    window.addEventListener("keydown", handleKeydown);
+
+    return () => window.removeEventListener("keydown", handleKeydown);
+  });
 
   useEffect(() => {
     if (map.current) return;
@@ -41,47 +59,42 @@ export const useMap = () => {
       container: container.current || "",
       style: "mapbox://styles/mapbox/dark-v11",
       center: coords,
-      maxZoom: 16,
+      maxZoom: 19,
       minZoom: 9,
       zoom: zoom,
+      pitch: 50,
+      antialias: true,
     });
 
-    map.current.on("load", () => {
-      map.current?.addSource("boroughs", {
-        type: "vector",
-        url: "mapbox://{}",
-      });
-      map.current?.addLayer(
-        {
-          id: "highlight",
-          type: "fill",
-          source: "boroughs",
-          "source-layer": "original",
-          paint: {
-            "fill-color": "#fd6b50",
-            "fill-opacity": 0.25,
-          },
-          filter: ["==", "borocode", ""],
+    //@ts-expect-error tb is not defined.
+    const tb = (window.tb = new Threebox(
+      map.current,
+      map.current.getCanvas().getContext("webgl"),
+      {
+        defaultLights: true,
+      },
+    ));
+
+    map.current.on("style.load", () => {
+      map.current?.addLayer({
+        id: "custom-threebox-model",
+        type: "custom",
+        renderingMode: "3d",
+        onAdd: () => {
+          locations.forEach(({ camera, model }) => {
+            tb.loadObj(model.options, (obj: any) => {
+              obj.setCoords(camera.center);
+              obj.setRotation({ x: 0, y: 0, z: 241 });
+              tb.add(obj);
+            });
+          });
         },
-        // "road-label", // Place polygon under labels.
-      );
-
-      playback(0);
+        render: () => tb.update(),
+      });
     });
 
-    markers.features.forEach((feature) => {
-      const ref = createRef<HTMLDivElement | null>();
-
-      // @ts-expect-error ref is read-only.
-      ref.current = document.createElement("div");
-
-      createRoot(ref.current).render(<Marker feature={feature} />);
-
-      new mapboxgl.Marker(ref.current)
-        .setLngLat(feature.geometry.coordinates as [number, number])
-        .addTo(map.current!);
-    });
+    map.current.on("load", () => moveMap(0));
   }, []);
 
-  return { container, map };
+  return { container, map, location };
 };
