@@ -1,4 +1,5 @@
 import {
+  Link,
   Button,
   Image,
   Popover,
@@ -11,10 +12,8 @@ interface Props {
 }
 
 export const Marker = ({ location }: Props) => {
-  const handleClick = () => alert(`Marker clicked: ${location.sport}`);
-
   return (
-    <Popover showArrow>
+    <Popover showArrow backdrop="opaque">
       <PopoverTrigger>
         <Image
           isBlurred
@@ -23,8 +22,15 @@ export const Marker = ({ location }: Props) => {
           className="w-60 cursor-pointer"
         />
       </PopoverTrigger>
-      <PopoverContent>
-        <Button onClick={handleClick}>{location.sport}</Button>
+      <PopoverContent className="p-5">
+        <Button
+          as={Link}
+          href={`/sports/${location.sport}`}
+          variant="flat"
+          color="primary"
+        >
+          {location.sport}
+        </Button>
       </PopoverContent>
     </Popover>
   );
