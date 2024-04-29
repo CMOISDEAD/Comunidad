@@ -76,6 +76,11 @@ export const Hud = () => {
           </Button>
         ))}
       </div>
+      <div className="absolute top-2 right-2">
+        <h1 className="text-2xl font-bold text-gray-300">
+          Comunidad Deportiva
+        </h1>
+      </div>
     </>
   );
 };
