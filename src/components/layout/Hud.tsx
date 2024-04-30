@@ -77,7 +77,7 @@ export const Hud = () => {
         ))}
       </div>
       <div className="absolute top-2 right-2">
-        <h1 className="text-2xl font-bold text-gray-300">
+        <h1 className="text-2xl font-bold text-gray-300 font-tactic">
           Comunidad Deportiva
         </h1>
       </div>

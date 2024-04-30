@@ -5,3 +5,12 @@
 .mapboxgl-ctrl-bottom-right {
   display: none;
 }
+
+@font-face {
+  font-family: "Tactic";
+  src: url("/fonts/TacticoPro-Regular.otf") format("opentype");
+}
+
+.font-tactic {
+  font-family: "Tactic";
+}
