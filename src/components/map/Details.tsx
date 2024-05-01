@@ -8,12 +8,12 @@ import {
   Skeleton,
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
-import { RxArrowRight } from "react-icons/rx";
+import { RxArrowRight, RxPause, RxPlay } from "react-icons/rx";
 import { useAppStore } from "../../store/useAppStore";
 
 export const Details = () => {
   const [value, setValue] = useState(0);
-  const { location } = useAppStore();
+  const { location, player } = useAppStore();
 
   useEffect(() => {
     setValue(0);
@@ -22,6 +22,14 @@ export const Details = () => {
     }, 200);
     return () => clearInterval(interval);
   }, [location]);
+
+  const toggle = () => {
+    if (player.paused) {
+      player.play();
+    } else {
+      player.pause();
+    }
+  };
 
   return (
     <Card isBlurred className="absolute top-12 left-2 w-52 z-50">
@@ -35,9 +43,20 @@ export const Details = () => {
           />
           <CardHeader>
             <div className="flex flex-col">
-              <h2 className="text-3xl font-bold capitalize">
-                {location.title}
-              </h2>
+              <div className="flex gap-8 justify-between content-center items-center w-full">
+                <h2 className="text-3xl font-bold capitalize w-full">
+                  {location.title}
+                </h2>
+                <Button
+                  isIconOnly
+                  size="sm"
+                  variant="light"
+                  color="primary"
+                  onPress={toggle}
+                >
+                  {player.paused ? <RxPlay /> : <RxPause />}
+                </Button>
+              </div>
               <h4 className="text-xl text-default-500 capitalize">
                 {location.sport}
               </h4>

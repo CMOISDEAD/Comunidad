@@ -1,7 +1,5 @@
 import { useState, useEffect, useRef, createRef } from "react";
 import mapboxgl, { Map } from "mapbox-gl";
-// @ts-expect-error Threebox is not defined.
-import { Threebox } from "threebox-plugin";
 
 import { locations } from "../data/locations";
 import { useAppStore } from "../store/useAppStore";
@@ -13,7 +11,7 @@ export const useMap = () => {
     -75.6723751, 4.536307,
   ]);
   const [zoom, _setZoom] = useState(13);
-  const { index, setIndex, location, setLocation } = useAppStore();
+  const { index, setIndex, location, setLocation, player } = useAppStore();
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
@@ -41,7 +39,15 @@ export const useMap = () => {
   };
 
   useEffect(() => {
+    player.pause();
+    player.currentTime = 0;
+    const { audio } = locations[index];
     moveMap(index);
+    if (!audio) return;
+    setTimeout(() => {
+      player.src = audio;
+      player.play();
+    }, 300);
   }, [index]);
 
   useEffect(() => {
@@ -91,5 +97,5 @@ export const useMap = () => {
     map.current.on("load", () => moveMap(0));
   }, []);
 
-  return { container, map, location };
+  return { container, map };
 };

@@ -4,6 +4,7 @@ interface ILocation {
   description: string;
   sport: string;
   image?: string;
+  audio?: string;
   camera: {
     center: [number, number];
     zoom: number;
