@@ -11,7 +11,7 @@ export const useMap = () => {
     -75.6723751, 4.536307,
   ]);
   const [zoom, _setZoom] = useState(13);
-  const { index, setIndex, location, setLocation, player } = useAppStore();
+  const { index, setIndex, setLocation, player } = useAppStore();
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
