@@ -3,6 +3,7 @@ import { Button, Kbd } from "@nextui-org/react";
 import { locations } from "../../data/locations";
 import { useAppStore } from "../../store/useAppStore";
 import { useEffect } from "react";
+import { Team } from "./Team";
 
 export const Hud = () => {
   const { index, setIndex } = useAppStore();
@@ -77,9 +78,7 @@ export const Hud = () => {
         ))}
       </div>
       <div className="absolute top-2 right-2">
-        <h1 className="text-2xl font-bold text-gray-300 font-tactic">
-          Comunidad Deportiva
-        </h1>
+        <Team />
       </div>
     </>
   );
