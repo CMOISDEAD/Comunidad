@@ -11,8 +11,11 @@ export const Team = () => {
     <Popover showArrow backdrop="opaque">
       <PopoverTrigger>
         <Button variant="light" color="primary">
-          <h1 className="text-2xl font-bold text-gray-300 font-tactic">
+          <h1 className="hidden text-2xl font-bold text-gray-300 font-tactic md:block">
             Comunidad Deportiva
+          </h1>
+          <h1 className="md:hidden text-2xl font-bold text-gray-300 font-tactic">
+            ComDep
           </h1>
         </Button>
       </PopoverTrigger>

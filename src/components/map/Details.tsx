@@ -44,7 +44,9 @@ export const Details = () => {
             </div>
           </CardHeader>
           <CardBody>
-            <p className="text-sm mb-5">{location.description}</p>
+            <p className="hidden text-sm mb-5 md:block">
+              {location.description}
+            </p>
             <Button
               fullWidth
               variant="flat"
@@ -53,7 +55,7 @@ export const Details = () => {
               href={`/sports/${location.sport}`}
               endContent={<RxArrowRight />}
             >
-              Go to the page
+              View More
             </Button>
           </CardBody>
         </>
