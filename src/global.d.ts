@@ -11,15 +11,6 @@ interface ILocation {
     pitch?: number;
     bearing?: number;
   };
-  model: {
-    options?: {
-      obj: string;
-      type: string;
-      scale: { x: number; y: number; z: number };
-      units: string;
-      rotation: { x: number; y: number; z: number };
-    };
-  };
   feature: {
     type: string;
     properties: {

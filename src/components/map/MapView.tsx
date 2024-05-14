@@ -8,7 +8,7 @@ export const MapView = () => {
   return (
     <div className="h-screen">
       <Details />
-      <div ref={container} className="h-full w-full" />
+      <div ref={container} className="h-full w-full outline" />
     </div>
   );
 };

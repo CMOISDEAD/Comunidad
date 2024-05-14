@@ -1,20 +1,24 @@
 import { useEffect } from "react";
 import { Button, Kbd } from "@nextui-org/react";
-import { locations } from "../../data/locations";
+import { locations, general } from "../../data/locations";
 import { useAppStore } from "../../store/useAppStore";
 
 export const Sites = () => {
-  const { index, setIndex } = useAppStore();
+  const { map, player, location, setLocation, setIndex } = useAppStore();
 
-  const handleNumber = (index: number) => {
-    setIndex(index);
+  const handleNumber = (title: string) => {
+    const find = locations.find((loc) => loc.title === title);
+    if (!find) return;
+    setLocation(find);
+    player.pause();
+    map.flyTo(find?.camera);
+    setIndex(locations.indexOf(find));
   };
 
   useEffect(() => {
     const handleKeydown = (e: KeyboardEvent) => {
-      // manage numbers from 1 to 6 and setIndex
-      if (e.key >= "1" && e.key <= "6") {
-        setIndex(Number(e.key) - 1);
+      if (e.key >= "1" && e.key <= general.length.toString()) {
+        handleNumber(general[Number(e.key) - 1].title);
       }
     };
     window.addEventListener("keydown", handleKeydown);
@@ -24,16 +28,16 @@ export const Sites = () => {
 
   return (
     <div className="absolute bottom-6 md:bottom-2 flex gap-8 md:gap-4 content-center items-center md:justify-center w-full font-mono overflow-auto">
-      {locations.map((location, idx) => (
+      {general.map((site, idx) => (
         <Button
           key={idx}
           size="sm"
           variant="light"
-          className={`flex gap-2 content-center items-center ${index === idx && "text-primary-500"}`}
-          onPress={() => handleNumber(idx)}
+          className={`flex gap-2 content-center items-center ${site.title === location?.title && "text-primary-500"}`}
+          onPress={() => handleNumber(site.title)}
         >
           <Kbd className="hidden md:block">{idx + 1}</Kbd>
-          <p className="text-xs">{location.title}</p>
+          <p className="text-xs">{site.title}</p>
         </Button>
       ))}
     </div>

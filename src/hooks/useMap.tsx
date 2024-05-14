@@ -7,6 +7,7 @@ import { createRoot } from "react-dom/client";
 import { Marker } from "../components/map/Marker";
 
 export const useMap = () => {
+  const { setMap } = useAppStore((state) => state);
   const [coords, _setCoords] = useState<[number, number]>([
     -75.6723751, 4.536307,
   ]);
@@ -94,7 +95,10 @@ export const useMap = () => {
         .addTo(map.current!);
     });
 
-    map.current.on("load", () => moveMap(0));
+    map.current.on("load", () => {
+      setMap(map.current);
+      moveMap(0);
+    });
   }, []);
 
   return { container, map };
