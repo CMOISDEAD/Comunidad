@@ -15,7 +15,7 @@ export const Marker = ({ location }: Props) => {
       </p>
       <Image
         isBlurred
-        src={location.image}
+        src={`https://res.cloudinary.com/djfou58lo/image/upload/v1716770506/comunidad/${location.image}`}
         alt="an image"
         classNames={{
           img: "w-36 z-20",
