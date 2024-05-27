@@ -1,10 +1,4 @@
-import {
-  Link,
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarMenuToggle,
-} from "@nextui-org/react";
+import { Link, Navbar, NavbarBrand, NavbarContent } from "@nextui-org/react";
 import { RxArrowLeft } from "react-icons/rx";
 
 export const Navigation = () => {

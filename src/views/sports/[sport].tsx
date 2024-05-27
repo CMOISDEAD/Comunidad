@@ -60,9 +60,13 @@ export const Sport = () => {
                   <p>{item.text}</p>
                 )}
               </CardBody>
-              <CardFooter>
-                <p className="text-xs text-center text-gray-500">{item.year}</p>
-              </CardFooter>
+              {item.year && (
+                <CardFooter>
+                  <p className="text-xs text-center text-gray-500">
+                    {item.year}
+                  </p>
+                </CardFooter>
+              )}
             </Card>
           ))}
         </div>

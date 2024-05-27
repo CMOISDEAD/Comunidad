@@ -25,6 +25,10 @@ interface ILocation {
 }
 
 interface ISport {
+  header: {
+    image: string;
+    caption: string;
+  };
   paragraphs: {
     images?: {
       url: string;
@@ -32,14 +36,10 @@ interface ISport {
     }[];
     paragraph: string;
   }[];
-  header: {
-    image: string;
-    caption: string;
-  };
   achievements: {
     title: string;
     list?: string[];
     text?: string;
-    year: number;
+    year?: number;
   }[];
 }
