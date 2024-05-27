@@ -71,4 +71,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Cristian Acosta";
+
+export default { name, header, paragraphs, achievements };

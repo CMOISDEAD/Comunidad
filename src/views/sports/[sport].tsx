@@ -20,7 +20,7 @@ import "react-photo-view/dist/react-photo-view.css";
 
 export const Sport = () => {
   const { sport } = useParams();
-  const { header, paragraphs, achievements }: ISport =
+  const { name, header, paragraphs, achievements }: ISport =
     sports[sport?.toLowerCase()!];
 
   return (
@@ -41,7 +41,7 @@ export const Sport = () => {
 
         <div className="relative md:h-64 py-2 flex flex-col md:flex-row gap-3 content-center items-center justify-evenly">
           <p className="font-vulture text-9xl absolute -z-10 text-center">
-            Yuya Pantoja Hurtado
+            {name}
           </p>
 
           {achievements.map((item, idx) => (

@@ -59,4 +59,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Johnny Andica";
+
+export default { name, header, paragraphs, achievements };

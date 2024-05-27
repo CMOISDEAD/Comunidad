@@ -62,4 +62,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Sarah Mayorga";
+
+export default { name, header, paragraphs, achievements };

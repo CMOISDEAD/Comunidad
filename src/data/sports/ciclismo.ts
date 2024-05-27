@@ -60,4 +60,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Esteban Mejia";
+
+export default { name, header, paragraphs, achievements };

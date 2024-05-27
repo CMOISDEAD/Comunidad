@@ -59,4 +59,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Crístian Escarraga";
+
+export default { name, header, paragraphs, achievements };

@@ -73,4 +73,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Yuya Pantoja Hurtado";
+
+export default { name, header, paragraphs, achievements };

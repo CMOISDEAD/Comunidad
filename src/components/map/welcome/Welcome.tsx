@@ -7,15 +7,22 @@ import {
   ModalHeader,
   ModalBody,
   ModalFooter,
+  useDisclosure,
 } from "@nextui-org/react";
+import { useEffect } from "react";
 import { RxArrowLeft, RxArrowRight } from "react-icons/rx";
 
-interface Props {
-  isOpen: boolean;
-  onOpenChange: (open: boolean) => void;
-}
+export const Welcome = () => {
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-export const Welcome = ({ isOpen, onOpenChange }: Props) => {
+  useEffect(() => {
+    const showWelcome = window.sessionStorage.getItem("showWelcome");
+    if (!showWelcome) {
+      onOpen();
+      window.sessionStorage.setItem("showWelcome", "true");
+    }
+  }, []);
+
   return (
     <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
       <ModalContent>
@@ -29,8 +36,8 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
             </ModalHeader>
             <ModalBody>
               <p>
-                This is a simple map where you can navigate through different
-                locations.
+                Proyecto de Grado del Programa Comunicacion Social y Periodismo
+                de la Universidad del Quindio.
               </p>
               <Divider />
               <h3 className="text-lg font-bold capitalize">Navegacion:</h3>

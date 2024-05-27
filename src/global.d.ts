@@ -25,6 +25,7 @@ interface ILocation {
 }
 
 interface ISport {
+  name: string;
   header: {
     image: string;
     caption: string;

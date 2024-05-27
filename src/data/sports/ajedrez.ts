@@ -1,3 +1,5 @@
+const name = "Sarah Lucia";
+
 const header = {
   image:
     "https://res.cloudinary.com/djfou58lo/image/upload/v1716385360/comunidad/sara_lucia/i0tox2whhyinws4uchzf.jpg",
@@ -67,4 +69,4 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+export default { name, header, paragraphs, achievements };

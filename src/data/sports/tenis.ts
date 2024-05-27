@@ -71,4 +71,6 @@ const achievements = [
   },
 ];
 
-export default { header, paragraphs, achievements };
+const name = "Diego Cortes";
+
+export default { name, header, paragraphs, achievements };
