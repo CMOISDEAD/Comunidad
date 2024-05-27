@@ -1,11 +1,4 @@
-import {
-  Link,
-  Button,
-  Image,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-} from "@nextui-org/react";
+import { Link, Image } from "@nextui-org/react";
 
 interface Props {
   location: ILocation;
@@ -13,25 +6,22 @@ interface Props {
 
 export const Marker = ({ location }: Props) => {
   return (
-    <Popover showArrow backdrop="opaque">
-      <PopoverTrigger>
-        <Image
-          isBlurred
-          src={location.image}
-          alt="an image"
-          className="w-60 cursor-pointer"
-        />
-      </PopoverTrigger>
-      <PopoverContent className="p-5">
-        <Button
-          as={Link}
-          href={`/sports/${location.sport}`}
-          variant="flat"
-          color="primary"
-        >
-          {location.sport}
-        </Button>
-      </PopoverContent>
-    </Popover>
+    <Link
+      className="relative cursor-pointer"
+      href={`/sports/${location.sport}`}
+    >
+      <p className="font-vulture text-7xl z-10 text-nowrap mb-20 text-foreground">
+        {location.feature.properties.title.split(" ").slice(0, 2).join(" ")}
+      </p>
+      <Image
+        isBlurred
+        src={location.image}
+        alt="an image"
+        classNames={{
+          img: "w-36 z-20",
+          wrapper: "absolute top-0 left-0 right-0 m-auto w-fit",
+        }}
+      />
+    </Link>
   );
 };

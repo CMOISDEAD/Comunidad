@@ -14,3 +14,38 @@
 .font-tactic {
   font-family: "Tactic";
 }
+
+@font-face {
+  font-family: "Vultures";
+  src: url("/fonts/vultures.otf") format("opentype");
+}
+
+.font-vulture {
+  font-family: "Vultures";
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #52525b;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3f3f46;
+}
+
+body {
+  background: url("https://imagedelivery.net/EuPZIXN3CvcLBcBD09xitQ/bfdfd09b-1581-4cf4-be13-7ed38af9f200/w=960")
+    center center fixed;
+  background-size: cover;
+}

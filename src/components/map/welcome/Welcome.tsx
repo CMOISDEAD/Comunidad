@@ -21,14 +21,19 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
       <ModalContent>
         {(onClose) => (
           <>
-            <ModalHeader>!Welcome to the map!</ModalHeader>
+            <ModalHeader>
+              <p>
+                Bienvenido a{" "}
+                <span className="font-tactic">Comnudad Deportiva</span>
+              </p>
+            </ModalHeader>
             <ModalBody>
               <p>
                 This is a simple map where you can navigate through different
                 locations.
               </p>
               <Divider />
-              <h3 className="text-lg font-bold capitalize">Navigation:</h3>
+              <h3 className="text-lg font-bold capitalize">Navegacion:</h3>
               <div className="flex content-center items-center justify-evenly text-sm">
                 <ul>
                   <li className="mb-2">
@@ -38,7 +43,7 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
                       </Kbd>
                       <Kbd>a</Kbd>
                     </span>
-                    Move backward
+                    Mover hacia atras
                   </li>
                   <li>
                     <span className="inline-flex gap-1 mr-2">
@@ -47,17 +52,17 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
                       </Kbd>
                       <Kbd>d</Kbd>
                     </span>
-                    Move forward
+                    Mover hacia adelante
                   </li>
                 </ul>
                 <ul>
                   <li className="mb-2">
                     <Kbd className="mr-2">m</Kbd>
-                    Mute/unmute the sound
+                    Mute/Unmute el audio
                   </li>
                   <li>
                     <Kbd keys={["enter"]} className="mr-2" />
-                    Go to the location
+                    Ir a la ubicacion actual
                   </li>
                 </ul>
               </div>
@@ -69,9 +74,12 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
                   ))}
                 </div>
                 <p className="text-sm text-center">
-                  Use the numbers to navigate to the location directly. For
-                  example, press <Kbd>1</Kbd> to go to the{" "}
-                  <span className="text-primary font-bold">first location</span>
+                  Usa los numeros para ir directamente al municipio deseado. Por
+                  ejemplo, presiona <Kbd>1</Kbd> para ir a{" "}
+                  <span className="text-primary font-bold">
+                    la primera locacion
+                  </span>
+                  .
                 </p>
               </div>
             </ModalBody>
@@ -82,7 +90,7 @@ export const Welcome = ({ isOpen, onOpenChange }: Props) => {
                 variant="flat"
                 onPress={onClose}
               >
-                Enjoy!
+                Entendido
               </Button>
             </ModalFooter>
           </>

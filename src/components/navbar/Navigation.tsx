@@ -3,62 +3,43 @@ import {
   Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarItem,
-  NavbarMenu,
-  NavbarMenuItem,
   NavbarMenuToggle,
 } from "@nextui-org/react";
-import { RxBox } from "react-icons/rx";
+import { RxArrowLeft } from "react-icons/rx";
 
 export const Navigation = () => {
   return (
-    <Navbar disableAnimation isBordered>
-      <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle />
-      </NavbarContent>
-
+    <Navbar isBordered shouldHideOnScroll>
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <Link href="/" color="foreground" className="gap-2">
-            <RxBox />
-            <p className="font-bold text-inerit capitalize">
+          <Link href="/" color="foreground">
+            <h1 className="hidden text-2xl font-bold text-gray-300 font-tactic md:block">
               Comunidad Deportiva
-            </p>
+            </h1>
+            <h1 className="md:hidden text-2xl font-bold text-gray-300 font-tactic">
+              ComDep
+            </h1>
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         <NavbarBrand>
-          <Link href="/" color="foreground" className="gap-2">
-            <RxBox />
-            <p className="font-bold text-inerit">Comunidad Deportiva</p>
+          <Link
+            href="/"
+            color="foreground"
+            className="flex gap-4 content-center items-center justify-center"
+          >
+            <RxArrowLeft />
+            <h1 className="hidden text-2xl font-bold text-gray-300 font-tactic md:block">
+              Comunidad Deportiva
+            </h1>
+            <h1 className="md:hidden text-2xl font-bold text-gray-300 font-tactic">
+              ComDep
+            </h1>
           </Link>
         </NavbarBrand>
-        <NavbarItem>
-          <Link href="/" color="foreground">
-            Contact
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/" color="foreground">
-            About
-          </Link>
-        </NavbarItem>
       </NavbarContent>
-
-      <NavbarMenu>
-        <NavbarMenuItem>
-          <Link href="/" color="foreground">
-            Contact
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href="/" color="foreground">
-            About
-          </Link>
-        </NavbarMenuItem>
-      </NavbarMenu>
     </Navbar>
   );
 };

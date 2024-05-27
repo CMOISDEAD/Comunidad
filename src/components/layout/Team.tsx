@@ -30,19 +30,19 @@ export const Team = () => {
                 isBlurred
                 src={person.img}
                 alt={`${person.name} profile picutre`}
-                className="w-full"
+                className="w-20 h-20"
               />
-              <p className="text-xs font-mono">{person.name}</p>
+              <p className="text-xs font-mono text-center">{person.name}</p>
             </div>
           ))}
         </div>
-        <div>
+        <a href="https://uniquindio.edu.co/" target="_blank">
           <Image
             isBlurred
             src="/images/comunicacion.png"
             alt="Logo de la Universidad del Quindio, Programa CSP"
           />
-        </div>
+        </a>
       </PopoverContent>
     </Popover>
   );
@@ -54,11 +54,11 @@ const people = [
     img: "/images/jeison.jpg",
   },
   {
-    name: "Jeison Cano",
-    img: "/images/jeison.jpg",
+    name: "Natalia",
+    img: "/images/natalia.jpg",
   },
   {
     name: "Jeison Cano",
-    img: "/images/jeison.jpg",
+    img: "/images/juan.jpg",
   },
 ];

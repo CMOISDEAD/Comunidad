@@ -34,7 +34,7 @@ export const Hud = () => {
               <RxArrowLeft />
             </Kbd>
           </Button>
-          <p className="text-xs font-mono">navigate</p>
+          <p className="text-xs font-mono">navegacion</p>
           <Button
             size="sm"
             variant="light"

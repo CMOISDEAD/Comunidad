@@ -42,10 +42,10 @@ export const Details = () => {
             aria-label="loading"
           />
           <CardHeader>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <div className="flex gap-8 justify-between content-center items-center w-full">
-                <h2 className="text-3xl font-bold capitalize w-full">
-                  {location.title}
+                <h2 className="text-2xl font-bold capitalize w-1/2 flex-grow">
+                  {location.sport}
                 </h2>
                 <Button
                   isIconOnly
@@ -57,13 +57,13 @@ export const Details = () => {
                   {player.paused ? <RxPlay /> : <RxPause />}
                 </Button>
               </div>
-              <h4 className="text-xl text-default-500 capitalize">
-                {location.sport}
+              <h4 className="text-lg text-default-500 capitalize">
+                {location.city}
               </h4>
             </div>
           </CardHeader>
           <CardBody>
-            <p className="hidden text-sm mb-5 md:block">
+            <p className="text-sm mb-5 line-clamp-2 md:line-clamp-5 lg:md-line-6">
               {location.description}
             </p>
             <Button
@@ -74,7 +74,7 @@ export const Details = () => {
               href={`/sports/${location.sport}`}
               endContent={<RxArrowRight />}
             >
-              View More
+              Ver mas
             </Button>
           </CardBody>
         </>

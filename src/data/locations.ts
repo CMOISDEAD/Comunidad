@@ -1,11 +1,11 @@
 export const locations: ILocation[] = [
   {
     id: "1",
-    title: "Armenia",
+    city: "Armenia",
     description:
-      "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+      "El fútbol es su vida, y es que, gracias a su padre, con quien veía partidos, desde pequeño se fue enamorando de este deporte, por ende, empezó a practicarlo con él, hasta que ahora en las divisiones menores de un equipo profesional. Cristian se esfuerza a diario por llegar a donde sueña, pues de lunes a viernes a primera hora inicia sus sesiones de entrenamiento, incluso algunos días haciéndolo también en horas de la tarde",
     sport: "Futbol",
-    image: "https://www.pngall.com/wp-content/uploads/12/Judo-PNG-Pic.png",
+    image: "/images/map/acosta_1.png",
     audio: "/audio/futbol.mp3",
     camera: {
       center: [-75.6723751, 4.536307],
@@ -26,11 +26,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "2",
-    title: "Armenia",
+    city: "Armenia",
     description:
-      "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+      "Yuya, como la conocen la mayoría, inició de muy niña, y a muy corta edad se convirtió en una pasión el patinaje, aunque debido a su edad, era poco el apoyo de sus padres por el temor. Sin embargo, de a poco fueron soltando y se convirtieron en un apoyo incondicional. ",
     sport: "Patinaje",
-    image: "https://www.pngall.com/wp-content/uploads/12/Judo-PNG-Pic.png",
+    image: "/images/map/yuya_2.png",
     audio: "/audio/patinaje.mp3",
     camera: {
       center: [-75.67682075500488, 4.538777501161054],
@@ -51,11 +51,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "3",
-    title: "Armenia",
+    city: "Armenia",
     description:
-      "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+      "Siendo un futbolista reconocido en el ámbito nacional, Diego sufre un accidente que lo deja en silla de ruedas, sin embargo, esto no detuvo su ímpetu de deportista y las ganas de salir adelante, es así como incursiona en el Tenis, donde empieza de menos a más. Diego es muy recordado no solamente en el departamento del Quindío, sino que también en tierras nariñences, luego de su gran paso por el deportivo Pasto en donde dejó muy buenos recuerdos y no solamente como futbolista en ese equipo campeón del 2006, sino que también haciendo parte de la selección Nariño en donde obtiene medallas por dicho departamento.",
     sport: "Tenis",
-    image: "https://www.pngall.com/wp-content/uploads/12/Judo-PNG-Pic.png",
+    image: "/images/map/cortes_1.png",
     audio: "/audio/tenis.mp3",
     camera: {
       center: [-75.65776634216309, 4.545539503650583],
@@ -76,11 +76,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "4",
-    title: "Armenia",
+    city: "Armenia",
     description:
-      "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+      "Cómo una niña curiosa, a sus 4 años Sara empezó a despertar cierto interés por el Ajedrez, mirando a su padre y primos. Sara se prepara de gran manera, y es que entrena tres veces entre dos o tres horas a la semana con la liga quindiana de ajedrez. Ella valora mucho la capacidad y el conocimiento de su entrenador, puesto que lo pone como un referente, escuchando sus consejos e indicaciones.",
     sport: "Ajedrez",
-    image: "https://www.pngall.com/wp-content/uploads/12/Judo-PNG-Pic.png",
+    image: "/images/map/lucia_1.png",
     audio: "/audio/ajedrez.mp3",
     camera: {
       center: [-75.66094207763672, 4.55760613806762],
@@ -101,11 +101,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "5",
-    title: "Calarca",
+    city: "Calarca",
     description:
-      "No matter how hip it looks on TV, NYC's most populous borough is best experienced in person. Read on to find out about live music, Prospect Park, Nets basketball and more.",
+      "Desde su estadía en el colegio, tuvo mucho el rose, la experiencia con la lucha grecorromana es así como Cristian al darse cuenta de sus capacidades empieza con una preparación destacable, teniendo en cuenta que Cristian es Invidente. Sin embargo, Cristian probó en otros deportes, como por ejemplo la natación, pero no terminó siendo su pasión, así que desistió de este deporte. Aunque no fue fácil tampoco iniciar en el judo, esto debido a que trasladarse a la ciudad de Armenia era un poco complejo por varios aspectos, sin embargo, encontraron soluciones para que Cristian iniciara con su proceso y poder empezar a competir, que era lo que él soñaba.",
     sport: "Judo",
-    image: "https://purepng.com/public/uploads/large/men-ride-bicycle-kkb.png",
+    image: "/images/map/escarraga_1.png",
     audio: "/audio/judo.mp3",
     camera: {
       center: [-75.6406048, 4.5305516],
@@ -126,11 +126,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "6",
-    title: "Calarca",
+    city: "Calarca",
     description:
-      "No matter how hip it looks on TV, NYC's most populous borough is best experienced in person. Read on to find out about live music, Prospect Park, Nets basketball and more.",
-    sport: "Hartelofilia",
-    image: "https://purepng.com/public/uploads/large/men-ride-bicycle-kkb.png",
+      "Inspirado por su hermano, empezó su carrera, cuando él lo veía entrenar y participar, así fue como Jhonny Andica dio inicio a su carrera en el levantamiento de pesas. Sin embargo, uno de los mayores desafíos ha sido el apoyo por parte de los entes gubernamentales, esto debido a las diferentes políticas usadas en el departamento, es por esto que se enfrenta en una lucha constante en pro de los recursos que le permitan estar en diferentes competencias.",
+    sport: "Halterofilia",
+    image: "/images/map/andica_1.png",
     audio: "/audio/halterofilia.mp3",
     camera: {
       center: [-75.64515382648926, 4.526532825253117],
@@ -151,11 +151,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "6",
-    title: "Quimbaya",
+    city: "Quimbaya",
     description:
-      "Even if you think you know Manhattan—its world-class museums, fine dining and unforgettable views—the borough always has something new and exciting in store.",
+      "Con la invitación de una amiga, así inició el camino al atletismo por parte de Paula Andrea, quien al aceptar esta invitación, realizó unas pruebas que dejó asombrado al entrenador.",
     sport: "Atletismo",
-    image: "https://berryvikings.com/images/2020/6/25/msoc_ath.png",
+    image: "/images/map/marin_1.png",
     audio: "/audio/atletismo.mp3",
     camera: {
       center: [-75.7637346, 4.6231176],
@@ -176,12 +176,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "7",
-    title: "La Tebaida",
+    city: "La Tebaida",
     description:
-      "Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.",
+      "Su entrenador en el grado 6 descubrió sus capacidades, y aunque al principio a María no le gusto, pues le era muy difícil por algunos aspectos, no bajó los brazos y empezó a obtener resultados desde su primera competencia.Con dos horas en el gimnasio y seguido de ello dos o tres horas de entrenamiento táctico, María Julieth hace su preparación. Teniendo en cuenta y claro que según su rendimiento el apoyo se verá reflejado, María y su entrenador ponen todo para la puesta a punto.",
     sport: "Badminton",
-    image:
-      "https://static.wixstatic.com/media/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png/v1/fill/w_560,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png",
+    image: "/images/map/perez_1.png",
     audio: "/audio/badminton.mp3",
     camera: {
       center: [-75.7887314, 4.4512175],
@@ -202,12 +201,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "8",
-    title: "La Tebaida",
+    city: "La Tebaida",
     description:
-      "Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.",
+      "De una familia deportista, Sergio desde muy pequeño empezó a seguir los pasos de ellos, teniendo como entrenador a su padre que es quién le ha ido inculcando el amor por el deporte. Sergio se prepara de gran forma, entrenando de lunes a sábado, tanto de manera técnica, táctica, física y mental. Esto lo ha llevado a representar Colombia en competencias muy importantes, todo siendo el reflejo de su esfuerzo y dedicación a diario.",
     sport: "Badminton",
-    image:
-      "https://static.wixstatic.com/media/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png/v1/fill/w_560,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png",
+    image: "/images/map/zapata_1.png",
     audio: "/audio/badminton.mp3",
     camera: {
       center: [-75.78298377990724, 4.449661598757305],
@@ -228,12 +226,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "9",
-    title: "La Tebaida",
+    city: "La Tebaida",
     description:
-      "Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.",
+      "La primera vez que Sarah nadó fue a sus siete años. Sus padres querían que aprendiera, así que la ingresaron a clases de natación en el municipio de La Tebaida. Desde ese momento, Sarah y el agua no se han separado: «dentro del agua siento que estoy volando, me relajo, me quito todos los problemas de encima y es ahí donde me enfoco únicamente en mí».",
     sport: "Natacion",
-    image:
-      "https://static.wixstatic.com/media/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png/v1/fill/w_560,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ecdd9e_10645e0fd6ca458fb370835c48dfe655.png",
+    image: "/images/map/sarah_1.png",
     audio: "/audio/natacion.mp3",
     camera: {
       center: [-75.77937889099123, 4.450006560739221],
@@ -254,11 +251,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "10",
-    title: "Filandia",
+    city: "Filandia",
     description:
-      "New York City is made up of five boroughs: the Bronx, Brooklyn, Manhattan, Queens and Staten Island. Each one has enough attractions—and enough personality—to be a city all its own.",
+      "Esteban combina su pasión con el estudio, pues desde muy temprano inicia su día entrenando y con las clases de inglés que es lo que estudia actualmente, sin embargo, Esteban también se da un tiempo para sí mismo en su descanso. Mirando a su ídolo, el español Alberto Contador ganador de grandes carreras y en la actualidad Tadej Pogacar, Esteban se prepara viviendo el día a día, pues tiene muchas aspiraciones, sin embargo, es consciente de que todo es un proceso.",
     sport: "Ciclismo",
-    image: "https://www.fide.com/docs/player_images/2020009.png",
+    image: "/images/map/mejia_1.png",
     audio: "/audio/ciclismo.mp3",
     camera: {
       center: [-75.6579957, 4.6750767],
@@ -269,7 +266,7 @@ export const locations: ILocation[] = [
     feature: {
       type: "Feature",
       properties: {
-        title: "Esteban Mejía morales",
+        title: "Esteban Mejia morales",
         description: "Deportista numero 6",
       },
       geometry: {
@@ -280,11 +277,11 @@ export const locations: ILocation[] = [
   },
   {
     id: "11",
-    title: "Pijao",
+    city: "Pijao",
     description:
-      "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+      "De niña, debido a la hiperactividad, su familia buscó la manera de que concentrara su energía en algo más, aunque estuvo en varios deportes, fue el ajedrez quién acaparó toda su atención. Como todo deportista de alto rendimiento, deben prepararse para cada competencia, sin embargo, Yarli le da mucho valor e importancia a su equipo, el cual, está conformado por su familia.",
     sport: "Ajedrez",
-    image: "https://www.pngall.com/wp-content/uploads/12/Judo-PNG-Pic.png",
+    image: "/images/map/alejandra_1.png",
     audio: "/audio/ajedrez.mp3",
     camera: {
       center: [-75.7038062, 4.3341444],
@@ -307,7 +304,7 @@ export const locations: ILocation[] = [
 
 export const general = [
   {
-    title: "Armenia",
+    city: "Armenia",
     camera: {
       center: [-75.68111, 4.53389],
       zoom: 13.5,
@@ -315,7 +312,7 @@ export const general = [
     },
   },
   {
-    title: "Calarca",
+    city: "Calarca",
     camera: {
       center: [-75.6406048, 4.5305516],
       zoom: 13.5,
@@ -323,7 +320,7 @@ export const general = [
     },
   },
   {
-    title: "Quimbaya",
+    city: "Quimbaya",
     camera: {
       center: [-75.7637346, 4.6231176],
       zoom: 13.5,
@@ -331,7 +328,7 @@ export const general = [
     },
   },
   {
-    title: "Filandia",
+    city: "Filandia",
     camera: {
       center: [-75.6579957, 4.6750767],
       zoom: 13.5,
@@ -339,7 +336,7 @@ export const general = [
     },
   },
   {
-    title: "La Tebaida",
+    city: "La Tebaida",
     camera: {
       center: [-75.7887314, 4.4512175],
       zoom: 13.5,
@@ -347,7 +344,7 @@ export const general = [
     },
   },
   {
-    title: "Pijao",
+    city: "Pijao",
     camera: {
       center: [-75.7038062, 4.3341444],
       zoom: 13.5,
