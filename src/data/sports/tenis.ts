@@ -15,7 +15,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "Bueno, mi momento más memorable en el tema de tenis campo, creo que cuando gané el cupo al Mundial de Tokio-Japón, en la carrera deportiva paralímpica que tengo ahora.",
   },
   {
     images: [
@@ -24,9 +24,13 @@ const paragraphs = [
         caption:
           "Image added by the author, and may not be related to the content.",
       },
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/diego_cortez/nwisookhrpl9bnwiagrc",
+        caption: "a",
+      }
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "En el 2006 tuve un accidente que me dejó en silla de ruedas y opte por seguir el deporte de tema y de campo en silla de ruedas, donde prácticamente empecé de menos a más, y que afortunadamente he integrado a selecciones Colombia, ha sido campeón suramericano en la modalidad de tenis de campo en silla de ruedas, y me inspiró es la competitividad tanto en el fútbol, como el tema del tenis de campo en silla de ruedas, yo creo que ser competitivo toda persona debe hacerlo no solamente en el deporte, sino en todo.",
   },
   {
     images: [
@@ -37,7 +41,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "El mensaje más importante tanto para las personas convencionales o para las personas paranacionales es el amor propio hacia uno mismo y creer en Dios de que todo se puede lograr que a través del deporte es un estilo de vida es mejora tu calidad en el pensamiento, en la parte física, en la parte de salud y te abre puertas.",
   },
 ];
 

@@ -9,27 +9,41 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/hjnibz1tc4kmaxhrhduf.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/bbc3rw30kayabso4czt0.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/b3c2ngfrexr61oqpa7gk.jpg",
+        caption: ""
+      }
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "Hasta ahora fue los juegos paranacionales 2023 donde gané medalla de plata en 50 metros pecho, debido a que había entrenado para otras pruebas, pero lastimosamente la federación cambió todas las pruebas y solo me quedaba esa prueba, sinceramente no le tenía mucha fe. Y lograr una medalla de plata fue algo emocionante y estuve en shook, aún no me las creo.",
   },
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/qdnejnvq9fjj6j54hgen.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/n35fqspzzn36idqeic32.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "Sólo pienso en lo duro que tuve que entrenar para llegar a este momento, trato de ser positiva y confiar en mi. Y hacer lo que siempre hacemos en los entrenos y dar al 200% de mi.",
   },
   {
     images: [
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/pyeil6te0wcxcls4xdeu.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+{
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/ulizbkgoj8uown4oxion.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
       {
         url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383185/comunidad/sarah_mayorga/i60yvmju1uuidbzjeulr.jpg",
         caption:
@@ -37,7 +51,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Desde muy pequeña mis padres me entraron al mundo del deporte, estuve en varias disciplinas deportivas, pero me quedé con la natación, me encantó sentir esa sensación de relajación, como si el mundo se apagara y solo existe el agua y yo.",
   },
 ];
 

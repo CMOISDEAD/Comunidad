@@ -14,19 +14,22 @@ const paragraphs = [
           "Image added by the author, and may not be related to the content.",
       },
     ],
-    paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+    paragraph: "Creo que uno de los momentos más memorables de mi carrera deportiva fue con el once Caldas, cuando jugamos el zonal nacional en la paila valle, en la que no solo salimos campeones, sino que también obtuve el premio 'la valla menos vencida' del torneo.",
   },
   {
     images: [
-      {
+     {
         url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716380812/comunidad/cristian_acosta/ske3ga4tcoaycnks8egk.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },{
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716380812/comunidad/cristian_acosta/byp3xnrj4x0rvaa6hff3.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "Pero el fútbol va más allá de lo que sucede dentro del campo. Es un catalizador para el cambio social y el desarrollo comunitario. En muchos lugares del mundo, el fútbol es una herramienta para la inclusión, la educación y la promoción de la igualdad de género. Desde programas de fútbol base que mantienen a los jóvenes alejados de la delincuencia hasta iniciativas que empoderan a las mujeres a través del deporte, el fútbol tiene el poder de transformar vidas y construir un futuro más prometedor para las generaciones venideras.",
+      "Yo soy una persona muy creyente, antes de cada partido, siempre hago mis oraciones, me consagro, y también me visualizo haciendo las cosas bien en las acciones del juego, además de pensar en cada entrenamiento y ya con eso me siento con más confianza a la hora de un partido o una competencia importante.",
   },
   {
     images: [
@@ -48,7 +51,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Creo que una de mis metas próximamente sería la de debutar como jugador profesional acá en once Caldas, y así con trabajo y esfuerzo consolidarme en el equipo, y por que no salir a jugar al exterior.",
   },
 ];
 

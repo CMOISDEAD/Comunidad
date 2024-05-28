@@ -7,6 +7,7 @@ import badminton from "./badminton.ts";
 import ajedrez from "./ajedrez.ts";
 import ciclismo from "./ciclismo.ts";
 import natacion from "./natacion.ts";
+import atletismo from "./atletismo.ts";
 
 interface Sports {
   [key: string]: ISport;
@@ -40,4 +41,7 @@ export const sports: Sports = {
   natacion: {
     ...natacion,
   },
+  atletismo: {
+    ...atletismo
+  }
 };

@@ -1,6 +1,6 @@
 const header = {
   image:
-    "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/bjvy9sdbvkgcbm8ezkpe.jpg",
+    "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/v5ogj8ur4m11oitrirsx.jpg",
   caption:
     "El fútbol es mucho más que un simple juego. Es un fenómeno cultural que une a personas de diferentes rincones del planeta en torno a una pasión común.",
 };
@@ -15,29 +15,29 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "Yo me salí del BMX y empecé a hacer fútbol y yo era arquero y en una Navidad mi papá me dijo “porque no practicabas ciclismo de ruta”, entonces yo le dije, pues a mí nunca me había gustado, tiempo después cuando yo le dije bueno a mi papá, él me compra una bicicleta  y empecé a montar y me empecé a engomar en eso.",
   },
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/fenk60intj4o91tiwtut.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/ppy6j2z09gk0k7ic2dvx.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "Hice el récord mundial de la hora en categoría infantil, que ese récord mundial, eso lo tenía Peter Sagan, ese récord, eso fue en el 2019, yo le digo que año fue eso, y ese récord mundial, pues en sí eso no me dio nada, pero me dio, pues como el reconocimiento de personas.",
   },
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/vy1a65s5k7m5kszzynpa.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/uwscik8pgogludi3tgah.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Entre el equipo está el líder, el gregario, esos son los dos roles que hay, pero en sí, pues, obviamente hay carreras que es el que va duro en la contrarreloj, el que es bueno en el sprint, el que es bueno subiendo, pues la verdad gracias a Dios, pues a mi me va muy bien en todo entonces yo creo que con mi otro compañero y yo somos los líderes en el equipo, que somos los que vamos bien como en todos los terrenos.",
   },
 ];
 

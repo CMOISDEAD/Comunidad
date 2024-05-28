@@ -15,7 +15,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "Cuando yo ya estaba en la práctica, Juan Manuel, que es mi entrenador, me dijo, vea, ya llevamos tiempo invitándolos y ustedes no han podido ni nada. Y yo me conseguí unas colchonetas y nos entrenó en Calarca. yo fui a hablar en el colegio donde nos graduamos y allá la rectora nos prestó un espacio y así empezamos, entrenamos un día, luego dos, luego ya entrenábamos tres días allá y él nos decía, vamos a entrenar los domingos.",
   },
   {
     images: [
@@ -26,18 +26,18 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "Yo creo que es la meta principal de seguir representando el departamento lo mejor posible y sostener que el judo quindiano, seguir sosteniendo el respeto que nos tienen al judo quindiano a nivel nacional, porque al principio nadie creía en el judo quindiano a nivel con discapacidad y a nivel convencional, que no solo somos los con discapacidad sino todos a nivel convencional también, nadie creía en el judo quindiano y se empezaron a llevar a torneos, empezamos a ir a torneos tanto personas con discapacidad como convencionales y los demás departamentos que eran muy buenos, algunos muy buenos, empezaron a tomar respeto, yo pienso que lo principal es eso, mantener esa jerarquía que hemos venido demostrando.",
   },
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/cristian_escarraga/g6rm29kqhqcqfu1ind4t.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/cristian_escarraga/fet3wjl3gy6xgqjymbdg.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Un consejo o un mensaje positivo es que si uno tiene sueños, los siga, los busque y los persiga, pero todo a través de la responsabilidad y la disciplina, porque si uno tiene disciplina consigue lo que sea, tanto en el deporte como en la cultura, en la vida, en lo que quiera.",
   },
 ];
 

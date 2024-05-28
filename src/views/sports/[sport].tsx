@@ -8,7 +8,6 @@ import {
 } from "@nextui-org/react";
 import { Navigation as Nav } from "../../components/navbar/Navigation";
 import { PhotoProvider, PhotoView } from "react-photo-view";
-import { RxArrowTopLeft } from "react-icons/rx";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard } from "swiper/modules";
 import { sports } from "../../data/sports";
@@ -113,12 +112,6 @@ export const Sport = () => {
                               alt="header image"
                               className="w-full max-h-screen object-cover"
                             />
-                            <Card className="hidden md:block bg-background/80 backdrop-blur absolute  bottom-2 right-2 z-20 px-2 py-1 group-hover:px-3 group-hover:py-2 transition-all shadow">
-                              <CardBody>
-                                <RxArrowTopLeft className="group-hover:text-primary transition-colors" />
-                                <p className="font-bold">{image.caption}</p>
-                              </CardBody>
-                            </Card>
                             <Card className="hidden md:block absolute bottom-2 left-2 z-20 bg-background/80 backdrop-blur px-2 py-1 w-80 shadow">
                               <CardBody>
                                 <p>{p.paragraph}</p>

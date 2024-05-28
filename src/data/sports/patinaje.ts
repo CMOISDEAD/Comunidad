@@ -9,45 +9,36 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/vyz9owptabyiyipzoesv.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/ulqy0ouj2da1glwn648p.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
+
+    ],
+    paragraph:
+      "En realidad, yo inicié muy chiquita, entonces, obviamente no sabía que quería ser patinadora, pero mi familia, como a cualquier niño en algún momento, me regalaron unos patines y yo, desde el primer momento, me apasioné muchísimo, me metí mucho en el cuento.",
+  },
+  {
+    images: [
       {
         url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/ddxoytn6yg1bcrctvuti.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
-      {
+    ],
+    paragraph:
+      "lastimosamente, nunca ha sido un deporte, digamos, que está en primera fila en cuanto a apoyos. Sin embargo, Expotencia hasta hace poco empezaron a darnos apoyos a deportistas que llevamos ya mucho tiempo acá en el departamento. Entonces, digamos que las puertas se han ido abriendo muchísimo y eso obviamente nos facilita mucho más nuestro trabajo a la hora de ir a nacionales, a la hora de salir del país, a competir.",
+  },
+  {
+    images: [
+            {
         url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/cowg5sgfb6tcdegv2ua6.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
-  },
-  {
-    images: [
-      {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/s9r8jgmq2l8kuf8p6iyp.jpg",
-        caption:
-          "Image added by the author, and may not be related to the content.",
-      },
-    ],
-    paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
-  },
-  {
-    images: [
-      {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/oskbdsh9nn4lay9fqa8t.jpg",
-        caption:
-          "Image added by the author, and may not be related to the content.",
-      },
-    ],
-    paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Considero que el momento más memorable de mi carrera deportiva es el que está por venir, siempre es el que está por venir. Pero hablando ya de hace unos años, fui reconocida por la alcaldía de Ibagué, porque inicié mi proceso deportivo en el departamento del Tolima. Fui reconocida como mejor deportista del año, pues el alcalde me entregó un diploma y me entregó también una medalla de reconocimiento. Entonces hasta el momento creo que ha sido ese.",
   },
 ];
 

@@ -1,6 +1,6 @@
 const header = {
   image:
-    "https://res.cloudinary.com/djfou58lo/image/upload/v1716385360/comunidad/yonny_andica/nmfjrsg72cnywkxgqweb.jpg",
+    "https://res.cloudinary.com/djfou58lo/image/upload/v1716385360/comunidad/yonny_andica/cspniporimxtzeugynet.jpg",
   caption:
     "El fútbol es mucho más que un simple juego. Es un fenómeno cultural que une a personas de diferentes rincones del planeta en torno a una pasión común.",
 };
@@ -9,13 +9,23 @@ const paragraphs = [
   {
     images: [
       {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716385360/comunidad/yonny_andica/nmfjrsg72cnywkxgqweb.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+    ],
+    paragraph:
+      "El momento más memorable de mi carrera deportiva siempre ha sido como el reconocimiento que me ha dado la gente cuando me ven en la calle, cuando estoy en algún lugar por ahí público que me saludan y se quieren tomar una foto. Pues la verdad eso es como un momento muy memorable para mí porque ahí entiendo de la magnitud de los logros que he tenido y que las demás personas, hay otras personas que también le hagan como esa importancia a esos títulos. Entonces creo que esa parte memorable de mi carrera deportiva es eso, de que la gente me reconozca en la calle y se quiera tomar una foto conmigo.",
+  },{
+    images: [
+      {
         url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716385360/comunidad/yonny_andica/aup3xgnwgwykqdqubrwy.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "La parte mental es muy importante pues yo normalmente cuando una competencia pues está de mucha importancia trato de estar muy tranquilo trato de escuchar buena música que es lo que motiva videos pues también de pesistas pues que han hecho hazañas y de esa manera como llenarme esa energía pues positiva para afrontar la competencia.",
   },
   {
     images: [
@@ -26,7 +36,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "La evolución ha sido muy grande pues de hecho pues mi deporte fue el primer deporte en adquirir una medalla olímpica de oro y y como lo decía ahora en tema de tradición llevamos desde que se consiguió esa medalla en Sydney llevamos en todos los juegos olímpicos aportando medallas en el atamiento de pesas entonces eso a nivel de competencia nacional ha habido un auge muy grande donde pues hay muchas pesistas de muy buen nivel y todos pues con una mentalidad de mundiales, juegos olímpicos, campeonatos suramericanos, todos como con esa mentalidad de pertenecer a una selección colombia.",
   },
   {
     images: [
@@ -37,7 +47,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "El deporte nos enseña muchas cosas como la disciplina, perseverancia, sobreponerse sobre las derrotas.",
   },
 ];
 
