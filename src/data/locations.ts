@@ -80,7 +80,7 @@ export const locations: ILocation[] = [
     description:
       "Cómo una niña curiosa, a sus 4 años Sara empezó a despertar cierto interés por el Ajedrez, mirando a su padre y primos. Sara se prepara de gran manera, y es que entrena tres veces entre dos o tres horas a la semana con la liga quindiana de ajedrez. Ella valora mucho la capacidad y el conocimiento de su entrenador, puesto que lo pone como un referente, escuchando sus consejos e indicaciones.",
     sport: "Ajedrez",
-    image: "sara_lucia/lucia_1.png",
+    image: "sara_lucia/ajedrez_1.png",
     audio: "/audio/ajedrez.mp3",
     camera: {
       center: [-75.66094207763672, 4.55760613806762],
@@ -90,7 +90,7 @@ export const locations: ILocation[] = [
     feature: {
       type: "Feature",
       properties: {
-        title: "Sara Lucía Ospina Soto",
+        title: "Sara Lucía y Yarli Alejandra",
         description: "Deportista numero 1",
       },
       geometry: {
@@ -190,36 +190,11 @@ export const locations: ILocation[] = [
     feature: {
       type: "Feature",
       properties: {
-        title: "Maria Yulieth Perez tangarife",
+        title: "Maria Perez y Sergio Zapata",
         description: "Deportista numero 5",
       },
       geometry: {
         coordinates: [-75.7887314, 4.4512175],
-        type: "Point",
-      },
-    },
-  },
-  {
-    id: "8",
-    city: "La Tebaida",
-    description:
-      "De una familia deportista, Sergio desde muy pequeño empezó a seguir los pasos de ellos, teniendo como entrenador a su padre que es quién le ha ido inculcando el amor por el deporte. Sergio se prepara de gran forma, entrenando de lunes a sábado, tanto de manera técnica, táctica, física y mental. Esto lo ha llevado a representar Colombia en competencias muy importantes, todo siendo el reflejo de su esfuerzo y dedicación a diario.",
-    sport: "Badminton",
-    image: "sergio_zapata/zapata_1.png",
-    audio: "/audio/badminton.mp3",
-    camera: {
-      center: [-75.78298377990724, 4.449661598757305],
-      bearing: 28.4,
-      zoom: 15.5,
-    },
-    feature: {
-      type: "Feature",
-      properties: {
-        title: "Sergio zapata Ramírez",
-        description: "Deportista numero 5",
-      },
-      geometry: {
-        coordinates: [-75.78298377990724, 4.449661598757305],
         type: "Point",
       },
     },
@@ -271,31 +246,6 @@ export const locations: ILocation[] = [
       },
       geometry: {
         coordinates: [-75.6579957, 4.6750767],
-        type: "Point",
-      },
-    },
-  },
-  {
-    id: "11",
-    city: "Pijao",
-    description:
-      "De niña, debido a la hiperactividad, su familia buscó la manera de que concentrara su energía en algo más, aunque estuvo en varios deportes, fue el ajedrez quién acaparó toda su atención. Como todo deportista de alto rendimiento, deben prepararse para cada competencia, sin embargo, Yarli le da mucho valor e importancia a su equipo, el cual, está conformado por su familia.",
-    sport: "Ajedrez",
-    image: "yarli_alejandra/alejandra_1.png",
-    audio: "/audio/ajedrez.mp3",
-    camera: {
-      center: [-75.7038062, 4.3341444],
-      zoom: 15.5,
-      pitch: 50,
-    },
-    feature: {
-      type: "Feature",
-      properties: {
-        title: "Yarli Alejandra Agudelo Zapata",
-        description: "Deportista numero 1",
-      },
-      geometry: {
-        coordinates: [-75.7038062, 4.3341444],
         type: "Point",
       },
     },

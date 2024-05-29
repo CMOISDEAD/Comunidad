@@ -43,25 +43,24 @@ const paragraphs = [
 
 const achievements = [
   {
-    title: "Juegos Paranacionales Bolivar",
+    title: "Juegos Inter-Colegiados 2017",
     list: [
-      "Medalla Bronce Modalidad 50 metros",
-      "Medalla Bronce Modalidad 100 metros",
-      "Medalla Bronce Modalidad 200 metros",
+      "Medalla de Oro Modalidad 50 metros planos",
+      "Medalla de Oro Modalidad 100 metros planos",
     ],
-    year: 2019,
+    year: 2017,
   },
   {
-    title: "Juegos ParaNacionales 2023",
-    text: "Medalla de Plata modalida 50 metros",
-    year: 2023,
-  },
-  {
-    title: "Juegos Intercolegiados 2014",
-    list: ["Dos Medallas de Oro", "Dos Medallas de Plata"],
+    title: "Juegos Inter-Colegiados 2018",
+    list: [
+      "Dos Medallas de Oro 100 y 50 metros planos",
+      "Medalla de Plata 200 metros planos",
+      "Medalla de Bronce 300 metros planos",
+    ],
+    year: 2018,
   },
 ];
 
-const name = "Sarah Mayorga";
+const name = "Paula Marin";
 
 export default { name, header, paragraphs, achievements };

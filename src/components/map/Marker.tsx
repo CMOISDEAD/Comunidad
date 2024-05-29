@@ -15,12 +15,13 @@ export const Marker = ({ location }: Props) => {
       </p>
       <Image
         isBlurred
-        src={`https://res.cloudinary.com/djfou58lo/image/upload/v1716770506/comunidad/${location.image}`}
+        src={`https://res.cloudinary.com/djfou58lo/image/upload/comunidad/${location.image}`}
         alt="an image"
         classNames={{
           img: "w-36 z-20",
           wrapper: "absolute top-0 left-0 right-0 m-auto w-fit",
         }}
+        radius="none"
       />
     </Link>
   );

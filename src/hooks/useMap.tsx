@@ -72,7 +72,7 @@ export const useMap = () => {
       style: "mapbox://styles/mapbox/dark-v11",
       center: coords,
       maxZoom: 19,
-      minZoom: 9,
+      minZoom: 10,
       zoom: zoom,
       pitch: 50,
       antialias: true,

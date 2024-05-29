@@ -1,6 +1,6 @@
 const header = {
   image:
-    "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/rzhcfix2in5b49jawyyl.jpg",
+    "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/sergio_zapata/xp13p85afupesqolql3n.jpg",
   caption:
     "El fútbol es mucho más que un simple juego. Es un fenómeno cultural que une a personas de diferentes rincones del planeta en torno a una pasión común.",
 };
@@ -43,25 +43,27 @@ const paragraphs = [
 
 const achievements = [
   {
-    title: "Campeonato nacional 2019",
-    list: ["Campeona Singles Femenino", "4 Bronces en Equipo"],
-    year: 2015,
-  },
-  {
-    title: "Logros",
+    title: "Maria Perez",
     list: [
-      "Cuadruple Medallista Bolivariana",
+      "Medalla de Oro Juegos Nacionales 2023",
       "Medallista de Bronce Sudamericana",
-      "Medalla de Oro en Juegos Nacionales 2023",
+      "Medalla de Plata Juegos Bolivarianos 2019",
+      "Cuadruple Medallista Juegos Bolivarianos 2019",
+      "Medalla de Plata Campeonato Nacional 2019",
     ],
+    year: 2024,
   },
   {
-    title: "Plata en XIX Juegos Bolivarianos de Valledupar 2019",
-    list: ["Medalla de Plata", "Medalla de Plata en Modalida por Equipos"],
-    year: 2024,
+    title: "Sergio Zapata",
+    list: [
+      "Oro Suramericano en Peru 2018",
+      "Juegos Sudamericanos de la Juventud 2022",
+      "Medalla de Bronce Juegos Bolivarianos 2024",
+      "2 en el Ranking Nacional de Badminton",
+    ],
   },
 ];
 
-const name = "María Perez";
+const name = "Maria Perez y Sergio Zapata";
 
 export default { name, header, paragraphs, achievements };
