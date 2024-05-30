@@ -13,7 +13,6 @@ export const Providers = () => {
 
   useEffect(() => {
     const handleMute = (e: KeyboardEvent) => {
-      e.preventDefault();
       if (e.key === "m") {
         player.muted = !player.muted;
       }
