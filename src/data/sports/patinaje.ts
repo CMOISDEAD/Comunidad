@@ -1,6 +1,6 @@
 const header = {
   image:
-    "https://res.cloudinary.com/djfou58lo/image/upload/v1716388111/comunidad/yuya_pantoja/egbzkyh4fi9pymzumlij.jpg",
+    "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/yuya_pantoja/egbzkyh4fi9pymzumlij.jpg",
   caption:
     "El fútbol es mucho más que un simple juego. Es un fenómeno cultural que une a personas de diferentes rincones del planeta en torno a una pasión común.",
 };
@@ -9,11 +9,10 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/ulqy0ouj2da1glwn648p.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/yuya_pantoja/p3gwkyfk2hd01nuqfw3b.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
-
     ],
     paragraph:
       "En realidad, yo inicié muy chiquita, entonces, obviamente no sabía que quería ser patinadora, pero mi familia, como a cualquier niño en algún momento, me regalaron unos patines y yo, desde el primer momento, me apasioné muchísimo, me metí mucho en el cuento.",
@@ -21,7 +20,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/ddxoytn6yg1bcrctvuti.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/yuya_pantoja/cowg5sgfb6tcdegv2ua6.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
@@ -31,14 +30,25 @@ const paragraphs = [
   },
   {
     images: [
-            {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716383183/comunidad/yuya_pantoja/cowg5sgfb6tcdegv2ua6.jpg",
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/yuya_pantoja/if3r1ycmowajvfae9lrq.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
       "Considero que el momento más memorable de mi carrera deportiva es el que está por venir, siempre es el que está por venir. Pero hablando ya de hace unos años, fui reconocida por la alcaldía de Ibagué, porque inicié mi proceso deportivo en el departamento del Tolima. Fui reconocida como mejor deportista del año, pues el alcalde me entregó un diploma y me entregó también una medalla de reconocimiento. Entonces hasta el momento creo que ha sido ese.",
+  },
+  {
+    images: [
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/yuya_pantoja/nvvmqgrpufoqyco5qswe.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+    ],
+    paragraph:
+      "El trabajo duro nunca engaña... cuando sientan que agotaron todas las oportunidades y recursos para llegar a donde quieren, solo sigan trabajando, no paren, son esos días donde más trabajamos sin querer, lo que no llevan a ser campeones en un futuro.",
   },
 ];
 

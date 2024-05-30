@@ -5,14 +5,16 @@ import { locations } from "../data/locations";
 import { useAppStore } from "../store/useAppStore";
 import { createRoot } from "react-dom/client";
 import { Marker } from "../components/map/Marker";
+import { useNavigate } from "react-router-dom";
 
 export const useMap = () => {
-  const { setMap } = useAppStore((state) => state);
+  const navigate = useNavigate();
   const [coords, _setCoords] = useState<[number, number]>([
     -75.6723751, 4.536307,
   ]);
   const [zoom, _setZoom] = useState(13);
-  const { index, setIndex, setLocation, player } = useAppStore();
+  const { index, location, setIndex, setLocation, setMap, player } =
+    useAppStore();
 
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
@@ -57,6 +59,8 @@ export const useMap = () => {
         playback(false);
       } else if (e.key === "ArrowRight" || e.key === "d") {
         playback(true);
+      } else if (e.key === "Enter") {
+        navigate(`/sports/${location.sport}`);
       }
     };
     window.addEventListener("keydown", handleKeydown);

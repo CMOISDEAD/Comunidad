@@ -12,10 +12,11 @@ export const Marker = ({ location }: Props) => {
     >
       <p className="font-vulture text-7xl z-10 text-nowrap mb-20 text-foreground">
         {location.feature.properties.title.split(" ").slice(0, 2).join(" ")}
+        {location.feature.properties.alt?.split(" ").slice(0, 2).join(" ")}
       </p>
       <Image
         isBlurred
-        src={`https://res.cloudinary.com/djfou58lo/image/upload/comunidad/${location.image}`}
+        src={location.image}
         alt="an image"
         classNames={{
           img: "w-36 z-20",

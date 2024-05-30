@@ -15,6 +15,7 @@ interface ILocation {
     type: string;
     properties: {
       title: string;
+      alt?: string;
       description: string;
     };
     geometry: {

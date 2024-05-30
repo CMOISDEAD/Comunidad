@@ -9,7 +9,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/a_270/comunidad/maria_perez/qvc0qzhdxrkofqcabvys.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/ium7esqsg0qn5rgsthsl.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
@@ -20,7 +20,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/a_270/comunidad/maria_perez/krjtrm2ocz4f3yi6acik.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/epgk3tfohxvq07xijtu8.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
@@ -31,7 +31,18 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/a_270/comunidad/maria_perez/dylneukeieebtiwzd8gc.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/hwauzqon8gwux9r6v7j5.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+    ],
+    paragraph:
+      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+  },
+  {
+    images: [
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/onb661wxybxqe32475u5.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },

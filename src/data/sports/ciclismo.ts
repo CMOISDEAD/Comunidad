@@ -1,6 +1,6 @@
 const header = {
   image:
-    "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/v5ogj8ur4m11oitrirsx.jpg",
+    "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/esteban_mejia/v5ogj8ur4m11oitrirsx.jpg",
   caption:
     "El fútbol es mucho más que un simple juego. Es un fenómeno cultural que une a personas de diferentes rincones del planeta en torno a una pasión común.",
 };
@@ -9,7 +9,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/lnimgv2afkbbofsxuffk.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/c_crop,g_north,h_600,w_1080/comunidad/esteban_mejia/lnimgv2afkbbofsxuffk.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
@@ -20,7 +20,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/ppy6j2z09gk0k7ic2dvx.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/esteban_mejia/ppy6j2z09gk0k7ic2dvx.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
@@ -31,7 +31,7 @@ const paragraphs = [
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/v1716384464/comunidad/esteban_mejia/uwscik8pgogludi3tgah.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/esteban_mejia/uwscik8pgogludi3tgah.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
