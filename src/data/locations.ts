@@ -140,7 +140,7 @@ export const locations: ILocation[] = [
       "https://res.cloudinary.com/djfou58lo/image/upload/v1717038251/comunidad/yonny_andica/andica_1.png",
     audio: "/audio/halterofilia.mp3",
     camera: {
-      center: [-75.64515382648926, 4.526532825253117],
+      center: [-75.67604436193237, 4.530981091509529],
       bearing: -8.9,
       zoom: 15.5,
     },
@@ -151,7 +151,7 @@ export const locations: ILocation[] = [
         description: "Deportista numero 2",
       },
       geometry: {
-        coordinates: [-75.64515382648926, 4.526532825253117],
+        coordinates: [-75.67604436193237, 4.530981091509529],
         type: "Point",
       },
     },
