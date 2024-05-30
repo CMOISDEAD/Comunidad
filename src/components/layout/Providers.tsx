@@ -14,8 +14,9 @@ export const Providers = () => {
   useEffect(() => {
     const handleMute = (e: KeyboardEvent) => {
       e.preventDefault();
-      if (e.key !== "m") return;
-      player.muted = !player.muted;
+      if (e.key === "m") {
+        player.muted = !player.muted;
+      }
     };
 
     window.addEventListener("keydown", handleMute);

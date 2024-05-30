@@ -15,18 +15,18 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "En su esencia, el fútbol es un ballet de habilidad, estrategia y emoción. Cada partido es una narrativa en sí misma, con sus propios giros y momentos dramáticos que mantienen a los aficionados al borde de sus asientos. Desde la tensión palpable antes del pitido inicial hasta la euforia desenfrenada de un gol de último minuto, el fútbol es una montaña rusa de emociones que deja una huella imborrable en la memoria de quienes lo experimentan.",
+      "El deporte, en general, tiene un impacto muy positivo en la comunidad local. Promueve la vida saludable, fomenta la disciplina y el trabajo en equipo, y brinda oportunidades de recreación y esparcimiento para personas de todas las edades.",
   },
   {
     images: [
       {
-        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/epgk3tfohxvq07xijtu8.jpg",
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/rzhcfix2in5b49jawyyl.jpg",
         caption:
           "Image added by the author, and may not be related to the content.",
       },
     ],
     paragraph:
-      "En resumen, el fútbol es mucho más que un deporte; es una fuerza unificadora que une a personas de todas las edades, razas y culturas en torno a una pasión compartida. Ya sea en un estadio abarrotado o en un campo de tierra improvisado, el fútbol tiene el poder de inspirar, emocionar y cambiar vidas para siempre.",
+      "El bádminton es un deporte muy bonito, que está hecho para caballeros como lo dice su lema, un deporte donde podrán conocer muchas personas, lugares y vivir experiencias únicas e increíbles, que es un proceso largo, pero que las puertas y caminos se van abriendo según la capacidad mental y verraquera de cada persona.",
   },
   {
     images: [
@@ -37,7 +37,29 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Mi familia siempre ha sido muy deportista, y desde pequeño mi papá, quien también es mi entrenador, me ha inculcado el amor por el deporte. Cuando descubrí el bádminton, me fascinó la combinación de velocidad, agilidad y estrategia que requiere, así que decidí probarlo y desde entonces me he enamorado de este deporte.",
+  },
+  {
+    images: [
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/epgk3tfohxvq07xijtu8.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+    ],
+    paragraph:
+      "A corto plazo seguirme manteniendo como la raqueta número 1 del país en individual, a mediano plazo sumar puntos en el ranking mundial y a largo plazo clasificarme a los juegos olímpicos de Los Ángeles 2028.",
+  },
+  {
+    images: [
+      {
+        url: "https://res.cloudinary.com/djfou58lo/image/upload/comunidad/maria_perez/xakyow12fwlzxhbi9s5n.jpg",
+        caption:
+          "Image added by the author, and may not be related to the content.",
+      },
+    ],
+    paragraph:
+      "Representar a Colombia en los Juegos Suramericanos de la Juventud en Argentina en el año 2022, fue una experiencia increíblemente emocionante y gratificante para mí. Poder vestir los colores de mi país y competir en un evento tan prestigioso fue un honor que nunca olvidaré. Los momentos en los que pude enfrentarme a los mejores jugadores de otros países y representar a mi país en la competencia fueron realmente inspiradores y me motivaron aún más a seguir mejorando en mi deporte.",
   },
   {
     images: [
@@ -48,7 +70,7 @@ const paragraphs = [
       },
     ],
     paragraph:
-      "Además, el fútbol es un escaparate para la excelencia atlética y la creatividad. Los jugadores más talentosos deslumbran a las multitudes con su destreza técnica y su capacidad para ver el juego de manera única. Desde los regates imposibles de Lionel Messi hasta los disparos magistrales de Cristiano Ronaldo, el fútbol nos recuerda constantemente la belleza y la diversidad del talento humano.",
+      "Aunque el camino a veces se nuble, no sabemos que podremos encontrar más allá hasta no cruzar esa nube gris.",
   },
 ];
 
