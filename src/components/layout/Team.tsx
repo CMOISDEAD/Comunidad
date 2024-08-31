@@ -53,12 +53,4 @@ const people = [
     name: "Jeison Cano",
     img: "/images/jeison.jpg",
   },
-  {
-    name: "Natalia",
-    img: "/images/natalia.jpg",
-  },
-  {
-    name: "César Jurado",
-    img: "/images/juan.jpg",
-  },
 ];
